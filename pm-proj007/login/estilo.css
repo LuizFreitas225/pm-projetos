@@ -1,0 +1,147 @@
+*{
+    background: url(Pao%20com%20ovo.png);
+   background-repeat: no-repeat;
+   
+}
+
+body{
+    
+     padding: 0;
+    text-align: center;
+    margin-left: 25%;
+    
+ height:800px;
+width: 50%; 
+    background-image: none;
+background-color: white;
+border-radius: 15px;
+    box-shadow: 3px 3px 3px  grey ;
+    border-top: solid 1px grey;
+    border-left: solid 1px grey;
+}
+HEADER{
+    
+    font-size: 50px;
+    border-radius: 15px;
+    background-image: none;
+    background-color: red;
+    font-family: 'Spirax', cursive;
+    margin:0;
+    box-shadow: 2px 2px 2px grey;
+    margin-top:-18px;
+}
+section form input{
+     margin-left:60px;
+     border:none;
+    border-bottom:solid 1px red;
+    position: absolute;
+    width: 35%;
+    height: 25px;
+    background-image: none;
+    background-color: white;
+    left:30%;
+    bottom:50%;
+    
+}
+
+section form #senha{
+    
+   
+    margin-left: 60px;
+    border:none;
+    border-bottom:solid 1px red;
+     
+    position: absolute;
+    width: 35%;
+    height: 25px;
+    background-image: none;
+    background-color: white;
+    left:30%;
+    bottom:36%;
+}
+
+section #logo {
+    
+    text-align: center;
+    position:absolute;
+    top:150px;
+    left: 30%;
+    background-image: none;
+    background: white;
+}
+section #logo img{
+    width: 50%;
+    
+}
+
+section form #enviar{
+    width: 150px;
+    height: 39px;
+    background-color: red;
+    position: absolute;
+    left: 42%;
+    top:80%;
+    border-radius: 7px;
+    
+    
+}
+
+section div a{
+    text-decoration: none;
+    color: red;
+    background-image: none;
+    width: 160px;
+    height: 20px;
+    background-color: transparent;
+    position: absolute;
+    bottom: 30%;
+    right: 30%;
+}
+section #tab{
+    left:33% ;
+}
+@media(max-width:700px){
+    body{
+         background-color: white;
+         position: absolute;
+        margin-left: 20px;
+        width: 90%;
+        height: 800px;
+    }
+    
+    section form input,  section form #senha{
+        width: 220px;
+        position: absolute;
+        left: -5px;
+        
+        
+    }
+    
+    section #logo img{
+        visibility: hidden;
+    }
+    
+    section div{
+        
+     justify-content: space-between;  
+    }
+    
+    section div a{
+        position: absolute;
+        left: -5px;
+        border: solid 1px 1px 1px #000;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    
+    section div #tab{
+    
+        margin-left: 60px;
+        width: 150px;
+        
+    }
+    
+    section form #enviar{
+        left: 40px;
+    }
+   
